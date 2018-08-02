@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+    - file: path=/home/administrator/one.txt state=touch
+
