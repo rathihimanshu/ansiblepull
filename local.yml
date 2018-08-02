@@ -3,4 +3,4 @@
   become: yes
   tasks:
     - file: path=/home/administrator/one.txt state=touch
-
+    - file: path=/home/administrator/two.txt state=touch
