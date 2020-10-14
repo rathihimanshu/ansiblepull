@@ -2,5 +2,5 @@
 - hosts: localhost
   become: yes
   tasks:
-    - file: path=/home/administrator/one.txt state=touch
-    - file: path=/home/administrator/two.txt state=touch
+    - file: path=/root/one.txt state=touch
+    - file: path=/root/two.txt state=touch
